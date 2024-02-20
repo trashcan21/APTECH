@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Username <input type="text" name="" id="username" placeholder="username"><br><br>
+        Password <input type="password" name="" id="password" placeholder="Password">
+        <button type="button" onclick="Store()">Submit</button>
+        <button type="reset" onclick="Cancel()">Reset</button>
+
+    </form>
+     <p id="p1"></p>
+    <script>
+        function Store(){
+            if(("localStorage" in window) && window.localStorage !== null)
+            {
+                var username = document.getElementById("username").value;
+                localStorage.setItem("username , username");
+                var password = document.getElementById("password").value;
+                localStorage.setItem("password" , password);
+                printme();
+            }
+        }
+
+        function Cancel(){
+            if(("localStorage" in window) && window.localStorage !== null)
+            {
+                localStorage.removeItem("username");
+                localStorage.removeItem("password");
+                printme();
+            }
+        }
+        function printme(){
+            if(("localStorage" in window) && window.localStorage !== null){
+            var username = localStorage.getItem("username");
+            document.getElementById("p1").innerHTML="Username is :"+ username;
+        }}
+    </script>
+</body>
+</html>

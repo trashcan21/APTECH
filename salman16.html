@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+            height: 150px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <button onclick="Checkloc()">checking</button>
+        <p id="p1"></p>
+    </div>
+
+    <script>
+        function Checkloc() {
+            if (window.navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showloc);
+            } else {
+                alert("not supported")
+            }
+        }
+        function showloc(position) {
+            document.getElementById("p1").innerHTML="Latitude is: "+position.coords.latitude +"<br>" +"Longitude is: "+position.coords.longitude;
+        }
+    </script> -->
+    <canvas id="myCanvas">
+        
+        </canvas>
+        
+        <script>
+        // let canvas = document.getElementById("myCanvas");
+        // let ctx = canvas.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        // ctx.fillRect(0, 0, 80, 80);
+        
+let c = document.getElementById("myCanvas");
+let ctx = c.getContext("2d");
+ctx.fillStyle = "red";
+ctx.fillRect(20, 20, 75, 50);
+//Turn transparency on
+ctx.globalAlpha = 0.2;
+ctx.fillStyle = "blue";
+ctx.fillRect(50, 50, 75, 50);
+ctx.fillStyle = "green";
+ctx.fillRect(80, 80, 75, 50);
+
+        </script>
+        
+</body>
+</html>

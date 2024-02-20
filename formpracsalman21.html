@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 600px;
+            margin: 0 auto;
+            border: 3px solid black;
+            padding: 40px;
+        }
+        .form{
+            justify-content: center;
+            text-align: center;
+            font-size: 19px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form .button{
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin: 10px;
+            font-size: 19px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        form .input{
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+    <form>
+        <label>Full Name</label><br>
+        <input type="text" name="name" value="" required placeholder="your first name" class="input">
+    <br><br>
+    <label> Email</label><br>
+    <input type="text" name="email" value="" required placeholder="enter your email" class="input">
+    <br><br>
+    <label>Phone Number</label><br>
+    <input type="text" id="phone" required placeholder="Enter your phone number" minlength="14" maxlength="14" class="input"><br><br>
+    <label>Courses</label><br>
+    <select name="" id="courses" >
+        <option value="">select your courses</option>
+        <option value="">Maths</option>
+        <option value="">English</option>
+        <option value="">Computer</option>
+    </select><br><br>
+    <label for="">Address</label><br>
+    <input type="text" name="address" value="" required placeholder="enter your address" class="input"><br><br>
+    <label for="">Date Of Birth</label><br>
+    <input type="date" name="DOB" value="" required><br><br>
+   
+    <label for="">Nationality</label><br>
+    <input type="text" id="nationality" required placeholder="enter your nationality" class="input"><br><br>
+    <label for="">gender</label><br>
+    <select name="" id="courses" >
+        <option value="">select your gender</option>
+        <option value="">male</option>
+        <option value="">female</option>
+        <option value="">helicopter</option>
+    </select><br><br>
+    <label for="">GPA</label><br>
+    <input type="text" class="input">
+    <br><br>
+    <label for="">Academic Achievements</label><br>
+    <input type="text" class="input"><br><br>
+    <div class="check">
+        <input type="checkbox" >I agree to terms and conditions
+    </div><br><br>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary bg-success">Submit</button>
+        <button type="button" class="btn btn-primary bg-danger">Reset</button>
+        
+      </div>
+    
+    </form>
+    <script>
+        function validateForm(){
+            const name = document.getElementById("uname").value;
+            const email = document.getElementById("email").value;
+            const number = document.getElementById("number").value;
+            const address = document.getElementById("address").value;
+            const nationality = document.getElementById("nat").value;
+            const Achievements = document.getElementById("ach").value;
+
+
+
+            const regexuname = /^[a-zA-Z]{3,20}$/;
+            const emailregex = /^{a-zA-Z0-9._-}+@[a-zA-Z]+\.{a-zA-Z{}}
+
+        }
+    </script>
+</div>
+</body>
+</html>

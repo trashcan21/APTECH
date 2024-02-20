@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style>
+        #email:valid{
+            color: aquamarine;
+
+        }
+        #email:invalid{
+            color: red;
+        }
+        #email:hover{
+            color: brown;
+            background-color: rgb(90, 126, 209);
+        }
+        #div1{
+            text-align: center;
+            border: 10px solid rgb(0, 0, 0);
+            padding-top: 22px ;
+            padding-bottom: 22px;
+            margin-left: 500px;
+            margin-right: 500px;
+            border-radius: 33px;
+            background-color: rgb(128, 128, 128);
+            margin-top: 218px;
+        }
+        #Yourname:hover{
+            background-color: rgb(65, 133, 212);
+        }
+        #password:hover{background-color: rgb(85, 121, 221);}
+        #submit:hover{
+            background-color: rgb(125, 125, 178);
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1>Gojo</h1>
+    <div id="div1">
+        
+        <form action="">
+            <label for="Yourname"><b>Name</b></label>
+            <input type="text" name="name" value="" id="Yourname">
+            <br>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="" id="password">
+            <br><br>
+            <label for="gender"><b>Gender</b></label>
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" value="Male">Male
+            <input type="checkbox" name="" id="">checkbox
+            <br><br>
+            <input type="button" value="submit" id="submit">
+         </form>
+    </div>
+</body>
+</html>
