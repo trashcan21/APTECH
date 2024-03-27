@@ -1,228 +1,535 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="GYm,fitness,business,company,agency,multipurpose,modern,bootstrap4">
+    
+  <!-- theme meta -->
+  <meta name="theme-name" content="gymfit" />
+  
+  <meta name="author" content="Themefisher.com">
 
+  <title>GymFit| Fitness template</title>
 
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-        <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
-        <style>
-            body{
-               background-color: rgb(255, 255, 255);
-            }
-            .navbar{
-                background-color: rgb(0, 0, 0);
-                height: 80px;
-                margin: 20px;
-                border-radius: 16px;
-                padding: 0.5rem;
-            }
-            .navbar-toggler {
-                border: none;
-                font-size: 1.25rem;
-            }
-            .navbar-toggler:focus, .btn-close{
-                box-shadow: none;
-                outline: none;
-            }
-            .nav-link{
-                color: #DCB958;
-                font-weight: 500;
-                position: relative;
-            }
-            .nav-link:hover, .nav-link.active {
-                color: #DCB958;
-            }
-            .nav-link::before{
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 0;
-                height: 2px;
-                background-color: #DCB958;
-                visibility: hidden;
-                transition: 0.3s ease-in-out;
-            }
-
-            .nav-link:hover::before, .nav-link.active::before{
-                width: 100%;
-                visibility: visible;
-            }
-            /* @media only screen and (max-width: 767px) {
-  #bidspirit{
-    display: none;
-  } */
-
-        </style>
-
-
-
-
-
-
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icofont Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <!-- Themify Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
 
+<!-- Section Menu Start -->
+<!-- Header Start -->
+<nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html">
+			<h2 class="text-white text-capitalize"></i>Gym<span class="text-color">Fit</span></h2>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
+			aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-view-list"></span>
+		</button>
+		<div class="collapse text-center navbar-collapse" id="navbarsid">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Pages.</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="about.html">About</a></li>
+						<li><a class="dropdown-item" href="trainer.html">Trainer</a></li>
+						<li><a class="dropdown-item" href="course.html">Courses</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="pricing.html">Memebership</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Blog.</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="blog.html">Blog Grid</a></li>
+						<li><a class="dropdown-item" href="blog-sidebar.html">Blog Sidebar</a></li>
+						<li><a class="dropdown-item" href="blog-single.html">Blog Details</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+			<div class="my-md-0 ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0">
+				<a href="tel:+23-345-67890">
+					<h3 class="text-color mb-0"><i class="ti-mobile mr-2"></i>+23-563-5688</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
 
 
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand me-auto" href="#"><img src="" width="100px" alt=""><span id="bidspirit" style="color: white; font-family: Libre Baskerville;"></span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="logo/white backgroung2.png" width="100px" alt=""><span style="color: #DCB958; font-family: libre baskerville; margin-left: 10px; letter-spacing: 8px;">BIDSPIRIT</span></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#" style="color: #DCB958;">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Auctions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#">Feedback</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+<!-- Header Close -->
+
+<div class="main-wrapper ">
+<!-- Section Menu End -->
+
+<!-- Section Slider Start -->
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<span class="h6 d-inline-block mb-4 subhead text-uppercase">Gym fitness club</span>
+				<h1 class="text-uppercase text-white mb-5">Step up your <span class="text-color">fitness Challange</span><br>with us</h1>
+			
+				<a href="pricing.html" target="_blank" class="btn btn-main " >Join Us <i class="ti-angle-right ml-3"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Slider End -->
+
+<!-- Section Intro Start -->
+<section class="mt-80px">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 border-0 rounded-top border-bottom position-relative hover-style-1">
+					<span class="number">01</span>
+					<h3 class="mt-3">Modern Air Conditioners</h3>
+					<p class="mt-3 mb-4">Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.</p>
+					<a href="about.html" class="text-color text-uppercase font-size-13 letter-spacing font-weight-bold"><i class="ti-minus mr-2 "></i>more Details</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 border-0 rounded-top hover-style-1">
+					<span class="number">02</span>
+					<h3 class="mt-3">PROFESIONAL Air conditioners</h3>
+					<p class="mt-3 mb-4">Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.</p>
+					<a href="about.html" class="text-color text-uppercase font-size-13 letter-spacing font-weight-bold"><i class="ti-minus mr-2 "></i>more Details</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="card p-5 border-0 rounded-top hover-style-1">
+					<span class="number">03</span>
+					<h3 class="mt-3">Commercial Water</h3>
+					<p class="mt-3 mb-4">Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.</p>
+					<a href="about.html" class="text-color text-uppercase font-size-13 letter-spacing font-weight-bold"><i class="ti-minus mr-2 "></i>more Details</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Intro End -->
+
+<!-- Section About start -->
+<section class="section about">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
+				<img src="images\orig-1.webp" alt="" class="img-fluid rounded shadow w-100">
+			</div>
+			
+			<div class="col-lg-6">
+				<div class="pl-3 mt-5 mt-lg-0">
+					<h2 class="mt-1 mb-3">We’ve skill in <br>wide <span class="text-color">range of air conditioners</span> and Other products. </h2>
+
+					<p class="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in.</p>
+
+					<a href="#" class="btn btn-main">Learn More<i class="fa fa-angle-right ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section About End -->
+
+<!-- section Call To action start -->
+<section class="section cta">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 col-md-12 col-sm-12">
+				<div class="text-center">
+					<span class="h6 letter-spacing text-white">Dscover your potential</span>
+					<h2 class="text-lg mt-4 mb-5 text-white">
+						Book your early seat to get <span class="text-color">summer 25% </span>dicsount
+					</h2>
+
+					<a href="pricing.html" class="btn btn-main text-white">Join Today</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- section Call To action start -->
+
+<!-- Section Services Start -->
+<section class="section services ">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<div class="section-title">
+					<div class="divider mb-3"></div>
+					<h2>Our Services</h2>
+					<p>We offer more than 35 brands of Air Conditioners.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-gym-alt-2 text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">WEIGHT LIFTING</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-cycling-alt text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Cycling</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-gym-alt-3 text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">YOGA MEDIDATION</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-muscle text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Building body</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-dumbbell text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Fitness Track</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="text-center  px-4 py-5 hover-style-1">
+					<i class="icofont-gym text-lg text-color"></i>
+					<h4 class="mt-3 mb-4 text-uppercase">Fitness</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, molestias.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Services End -->
+
+<!-- Section Gallery Start -->
+<section class="gallery">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<div class="section-title">
+					<div class="divider mb-3"></div>
+					<h2>Our gallery</h2>
+					<p>We offer more than 35 brands of Air Conditioners.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid p-0">
+		<div class="row no-gutters portfolio-gallery">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\Close-up-of-men-hand-operating-air-conditioner-with-remote-control-Close-up-shot-of-hand-holding-the-remote-control-of-white-air-conditioner-on-bl.jpg" class="popup-gallery">
+					<img src="images\Close-up-of-men-hand-operating-air-conditioner-with-remote-control-Close-up-shot-of-hand-holding-the-remote-control-of-white-air-conditioner-on-bl.jpg" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\shutterstock_228562258-scaled.jpg" class="popup-gallery"> 
+					<img src="images\shutterstock_228562258-scaled.jpg" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\split-kilmaanlage-523832965-istock.jpg" class="popup-gallery">
+					<img src="images\split-kilmaanlage-523832965-istock.jpg" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\NINTCHDBPICT000677794368.webp" class="popup-gallery">
+					<img src="images\NINTCHDBPICT000677794368.webp" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\homeguide-repairing-a-window-ac-unit-and-adding-weatherstripping.avif" class="popup-gallery">
+					<img src="images\homeguide-repairing-a-window-ac-unit-and-adding-weatherstripping.avif" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\Best-5000-BTU-Air-Conditioner-2-e1615790057605.jpg" class="popup-gallery">
+					<img src="images\Best-5000-BTU-Air-Conditioner-2-e1615790057605.jpg" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\stropni-klimatizace.jpg" class="popup-gallery">
+					<img src="images\stropni-klimatizace.jpg" style="height: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<a href="images\Wall_Mounted_Air_Conditioners_Collection_02.jpg09D6F6BC-682F-4BD9-9C1B-45DEFCD88958Zoom.jpg" class="popup-gallery">
+					<img src="images\Wall_Mounted_Air_Conditioners_Collection_02.jpg09D6F6BC-682F-4BD9-9C1B-45DEFCD88958Zoom.jpg" style="height: 325px; width: 325px;" alt="" class="img-fluid">
+				</a>
+			</div>
+		</div>
+	</div>
+</section>		
+
+<!-- Section Gallery END -->
+
+<!-- Section Testimonial Start -->
+<section class="section textimonial position-relative bg-3">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="row justify-content-center">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<div class="divider mb-3"></div>
+							<h2 class="text-white">What People say</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="testimonial-slider">
+					<div class="text-center mb-4 ">
+						<i class="ti-quote-left text-lg text-color"></i>
+						<h3 class="mt-4 text-white letter-spacing">A great Start to a healthy life</h3>
+						<p class="my-4 text-white-50">Laboriosam molestias aperiam sit corporis sunt, hic veritatis possimus optio reprehenderit, laudantium excepturi, consequatur. Assumenda hic error veniam exercitationem</p>
+
+						<div>
+							<h4 class="mb-0 text-capitalize text-white font-weight-normal">John Donas</h4>
+							<span class="text-white-50">Manager</span>
+						</div>
+					</div>
+					<div class="text-center mb-4">
+						<i class="ti-quote-left text-lg text-color"></i>
+						<h3 class="mt-4 text-white letter-spacing">The fresh air worth everything!</h3>
+						<p class="my-4 text-white-50">Laboriosam molestias aperiam sit corporis sunt, hic veritatis possimus optio reprehenderit, laudantium excepturi, consequatur. Assumenda hic error veniam exercitationem</p>
+						<div>
+							<h4 class="mb-0 text-capitalize text-white font-weight-normal">Donas Jack</h4>
+							<span class="text-white-50">Manager</span>
+						</div>
+					</div>
+
+					<div class="text-center mb-4">
+						<i class="ti-quote-left text-lg text-color"></i>
+						<h3 class="mt-4 text-white letter-spacing">Very Professional Staff</h3>
+						<p class="my-4 text-white-50">Laboriosam molestias aperiam sit corporis sunt, hic veritatis possimus optio reprehenderit, laudantium excepturi, consequatur. Assumenda hic error veniam exercitationem</p>
+						<div>
+							<h4 class="mb-0 text-capitalize text-white font-weight-normal" >Mikel Hussy</h4>
+							<span class="text-white-50">Manager</span>
+						</div>
+					</div>
+
+					<div class="text-center mb-4">
+						<i class="ti-quote-left text-lg text-color"></i>
+						<h3 class="mt-4 text-white letter-spacing">Be Healthy!</h3>
+						<p class="my-4 text-white-50">Laboriosam molestias aperiam sit corporis sunt, hic veritatis possimus optio reprehenderit, laudantium excepturi, consequatur. Assumenda hic error veniam exercitationem</p>
+						<div>
+							<h4 class="mb-0 text-capitalize text-white font-weight-normal">Hiker jons</h4>
+							<span class="text-white-50">Manager</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Testimonial END -->
+
+<!-- Section Course Start -->
+<section class="section course bg-gray">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<div class="section-title">
+					<div class="divider mb-3"></div>
+					<h2>Founders</h2>
+					<p>These are the founding members of our business.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
+					<img src="images\ef988-16728083142648-1920.webp" style="height: 200px;" alt="" class="img-fluid">
+
+					<div class="card-body">
+						<h4 class="font-secondary mb-0">Tristan Tate</h4>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
+					<img src="images\Shahid-Anwar-Net-Worth-Age-Height-Car-Bio-Wiki-Income-2023-1024x1024.jpg" style="height: 200px;" alt="" class="img-fluid">
+
+					<div class="card-body">
+						<h4 class="font-secondary mb-0" >Shahid Anwar</h4>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm" >
+					<img src="images\3000.jpeg" style="height: 200px;" alt="" class="img-fluid">
+
+					<div class="card-body">
+						<h4 class="font-secondary mb-0">Mark Zuckerburg</h4>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="card border-0 rounded-0 p-0 mb-5 mb-lg-0 shadow-sm">
+					<img src="images\16723620780107.remini-enhanced.jpg" style="height: 200px;" alt="" class="img-fluid">
+
+					<div class="card-body">
+						<h4 class="font-secondary mb-0">Andrew Tate</h4>
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<div class="mt-5 text-center">
+					<a href="course.html" class="btn btn-main">See all our Products</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section Course ENd -->
 
 
 
+<!-- Section Footer Start -->
+<!-- footer Start -->
+<footer class="footer bg-black-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+				<h2 class="text-white mb-4">GymFit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+			
+
+			<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+				<div class="footer-widget recent-blog">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Recents Posts</h4>
+					<div>
+						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
+					</div>
+					<div class="mt-4">
+						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2019</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-5 mb-5 mb-lg-0">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
+					<ul class="list-unstyled footer-menu lh-40 mb-0">
+						<li><a href="about.html"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
+						<li><a href="service.html"><i class="ti-angle-double-right mr-2"></i>Services</a></li>
+						<li><a href="pricing.html"><i class="ti-angle-double-right mr-2"></i>Membership</a></li>
+						<li><a href="course.html"><i class="ti-angle-double-right mr-2"></i>Courses</a></li>
+						<li><a href="contact.html"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-5">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Home location</h4>
+					<p>Washington 6036 Richmond
+					hwy., Alexandria, VA USA 22303 </p>
+					<span class="text-white">+1 (409) 987–5874</span>
+					<span class="text-white">info@demolink.org</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row align-items-center mt-5 px-3 bg-black mx-1">
+			<div class="col-lg-4">
+				<p class="text-white mt-3">Gymfit © 2019 , Theme By <a href="https://themefisher.com/" class="text-color">Themefisher.com</a></p>
+			</div>
+			<div class="col-lg-6 ml-auto text-right">
+				<ul class="list-inline mb-0 footer-socials">
+					<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://github.com/themefisher/"><i class="ti-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Section Footer End -->
+
+<!-- Section Footer Scripts -->
+   </div>
+
+   <!-- 
+    Essential Scripts
+    =====================================-->
 
 
+   <!-- Main jQuery -->
+   <script src="plugins/jquery/jquery.js"></script>
+   <!-- Bootstrap 4.3.1 -->
+   <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+   <!-- Slick Slider -->
+   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+   <!--  Magnific Popup-->
+   <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+   <!-- Form Validator -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+   <!-- Google Map -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+   <script src="plugins/google-map/gmap.js"></script>
 
-    
+   <script src="js/script.js"></script>
 
-        <!-- header -->
-    <header>
-        
-        <div class="search">
-            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-            </svg>
-        </div>
-    </header>
+   </body>
 
-    <!-- slider -->
-
-    <div class="slider">
-        <!-- list Items -->
-        <div class="list">
-            <div class="item active">
-                <img src="">
-                <div class="content">
-                    <p></p>
-                    <h2>RESIDENTIAL AIR</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
-                    </p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="content">
-                    <p></p>
-                    <h2>RESIDENTIAL WATER</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
-                    </p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="">
-                    <p></p>
-                    <h2>COMMERCIAL AIR</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
-                    </p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="content">
-                    <p></p>
-                    <h2>COMMERCIAL WATER</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
-                    </p>
-                </div>
-            </div>
-            
-            </div>
-        </div>
-        <!-- button arrows -->
-        <div class="arrows">
-            <button id="prev"><</button>
-            <button id="next">></button>
-        </div>
-        <!-- thumbnail -->
-        <div class="thumbnail">
-            <div class="item active">
-                <img src="">
-                <div class="content">
-                    RESIDENTIAL AIR
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="content">
-                    RESIDENTIAL WATER
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="content">
-                    COMMERCIAL AIR
-                </div>
-            </div>
-            <div class="item">
-                <img src="">
-                <div class="content">
-                    COMMERCIAL WATER
-                </div>
-            </div>
-            
-            </div>
-        </div>
-    </div>
-
-
-    <script src="app.js"></script>
-</body>
-</html>
+   </html>
+   
