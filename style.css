@@ -1,3 +1,32 @@
-#nav1 {
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+   
 }
+
+span{
+    color: #F2B741;
+}
+.navbar-brand{
+    
+    font-size: 40px;
+    color: white;
+}
+#header .navbar-nav{
+float: right;
+}
+.nav-link{
+    color: white;
+}
+#bg{
+   position: absolute;
+   top: 70px;
+}
+.body-txt{
+    z-index: 60;
+    margin-top: ;
+    margin-left: 18px;
+    
+}
+
+
